@@ -1,0 +1,36 @@
+<!-- list_item.xml -->
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+    <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/ic_launcher_foreground" />
+
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20sp"
+            android:text="Item Name"
+            android:layout_gravity="center_vertical"
+            android:textSize="18sp" />
+
+    <TextView
+            android:id="@+id/price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20sp"
+            android:layout_gravity="right|center_vertical"
+            android:textSize="18sp" />
+
+
+
+</LinearLayout>
